@@ -1,0 +1,84 @@
+
+body{
+    background: url(../color.jpg) no-repeat center center/cover;
+    
+    
+}
+
+.logo{
+    display: flex;
+    margin: 0px 12px;
+    text-align: left;
+}
+.logo h1{
+    margin: 5px 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.container{
+    /* border: 2px solid grey; */
+    /* text-align: center; */
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    overflow-y: auto;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+.message{
+    background-color: rgba(182, 190, 168, 0.5);
+    width: 20%;
+    margin: 17px 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+   
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-form{
+   text-align: center;
+   margin-top: 30px;
+}
+
+#messageInp {
+    border: none;
+    border-radius: 20px;
+    padding: 7px 100px;
+    list-style: none;
+    background: rgba(182, 190, 168, 0.5);
+    /* font-weight: 900; */
+}
+#messageInp:hover{
+    /* background: #493649; */
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+#send-form .btn{
+    border: none;
+    padding: 5px 40px;
+    font-weight: 900;
+    color: white;
+    background:  rgba(182, 190, 168, 0.5); 
+    border-radius: 20px;
+}
